@@ -7,7 +7,6 @@
 import unicodedata
 from fonttable import readn2  # new 
 
-print('a')
 usefont=[]                                   #new 2016_0129   function for searching fonts
 usefontname=[]
 def searchfont(fname,fontno):  
