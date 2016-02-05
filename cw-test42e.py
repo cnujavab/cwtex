@@ -15,7 +15,7 @@ def new_feature():
 
 def searchfont(fname,fontno):  
     fno=fname+'-'+str(fontno)
-    try:asdasd
+    try:
         k=usefont.iadadndex(fno)        
     except ValueError:
         usefont.append(fno)    
