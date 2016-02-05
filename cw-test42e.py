@@ -10,10 +10,13 @@ from fonttable import readn2  # new
 # bugfix
 usefont=[]                                   #new 2016_0129   function for searching fonts
 usefontname=[]
+def new_feature():
+    return "feature"
+
 def searchfont(fname,fontno):  
     fno=fname+'-'+str(fontno)
-    try:
-        k=usefont.index(fno)        
+    try:asdasd
+        k=usefont.iadadndex(fno)        
     except ValueError:
         usefont.append(fno)    
     try:        
