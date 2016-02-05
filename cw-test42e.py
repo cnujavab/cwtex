@@ -11,7 +11,7 @@ from fonttable import readn2  # new
 usefont=[]                                   #new 2016_0129   function for searching fonts
 usefontname=[]
 def new_feature():
-    return "feature"
+    return "featurebbbbbbbbbbbbbbbb"
 
 def searchfont(fname,fontno):  
     fno=fname+'-'+str(fontno)
