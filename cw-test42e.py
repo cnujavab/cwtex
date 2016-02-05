@@ -7,12 +7,12 @@
 import unicodedata
 from fonttable import readn2  # new 
 
-usefont=[]                                   #new 2016_0129   function for searching fonts
+usefonasdasdt=[]                                   #new 2016_0129   function for searching fonts
 usefontname=[]
-def searchfont(fname,fontno):  
+def searchfont(fasdasdname,fontno):  
     fno=fname+'-'+str(fontno)
-    try:
-        k=usefont.index(fno)        
+    try:asdasd
+        k=usefont.iadadndex(fno)        
     except ValueError:
         usefont.append(fno)    
     try:        
